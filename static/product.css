@@ -1,0 +1,33 @@
+
+body{
+	background: #cbccd0;
+}
+#icon{
+	    margin-left: -160px;
+    width: 68px;
+    margin-bottom: -50px;
+}
+
+
+
+
+
+#footer1{background-color: #404040;
+    color: whitesmoke;}
+#arndw{margin-left: 590px;
+    margin-top: 17px;}
+#loc{   margin-left: 119px;
+    margin-top: -29px;
+font-size: 19px;}  
+#tri{       margin-left: 105px;
+    font-size: 12px;
+    margin-top: -18px;}  
+#social{margin-left: 488px;
+    margin-top: -23px;}
+#foot{height: 42px;
+    background-color: #222222;
+    color: white;}
+#dev{margin-top: 15px;
+    margin-left: 618px;
+    font-size: 14px;
+    }
