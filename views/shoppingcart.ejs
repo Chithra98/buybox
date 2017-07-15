@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="shoppingcart.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../home.css">
 
   <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Bangers |Gochi+Hand|Hammersmith+One|Luckiest+Guy|Ubuntu+Mono" rel="stylesheet">
@@ -32,21 +32,21 @@
   <span class="icon-bar"> </span>
   <span class="icon-bar"> </span>/
   </button>
-   <img src="x.jpg" id="icon">
+   <img src="../x.jpg" id="icon">
    <a class="navbar-brand" href="" style="font-family: 'Acme', sans-serif; font-family: Acme, sans-serif;     font-size: 25px;
     margin-top: 11px;"> BuyBox
    
        <div class="navbar-collapse collapse">
-           <ul class="nav navbar-nav navbar" style="font-family: Hammersmith One, sans-serif; margin-top: -8px;
+           <ul class="nav navbar-nav navbar" style="font-famiy: Hammersmith One, sans-serif; margin-top: -8px;
     font-size: 15px; margin-left: 169px;">
          <li id="hm"><a href="/profile">Home</a> </li>
-         <li id="pro"><a href="product1">Products</a></li>
+         <li id="pro"><a href="products1">Products</a></li>
          <li id="cnt"><a href="about1">About</a></li>
          <li><form style="margin-left: 38px; margin-top: 9px;" ><input class="mr-sm-2" type="text" placeholder="Search">
       <button class="btn btn-warning" type="submit">Search</button>
     </form></li>
-         <li ><a href="/shoppingcart"><img src="buy.jpg" style="width: 60px; width: 47px; margin-top: 4px; margin-left: 167px;"></li>
-         <li style=" margin-top: 10px;     margin-left: 33px;  "><a href="/"><button class="btn btn-primary" style="background-color: rgba(236, 22, 30, 0.99); border-color: #bdc743; margin-left: 15px;" type="submit">Logout</button></li></a></li>
+         <li ><a href="/shoppingcart"><img src="../buy.jpg" style="width: 60px; width: 47px; margin-top: 4px; margin-left: 167px;"></li>
+         <li style=" margin-top: 10px;     margin-left: 33px;  "><a href="/logout"><button class="btn btn-primary" style="background-color: rgba(236, 22, 30, 0.99); border-color: #bdc743; margin-left: 15px;" type="submit">Logout</button></li></a></li>
       
            </ul>
          </li>
@@ -58,15 +58,15 @@
 
 <% var sum=0 %>
 <div class="row>" id="r1">
-       <% for(var i=0;i<res.length;i++){%>
+       <% for(var i=0;i<res.length;i++){ %>
         <div class=" col-md-3" id="u1">
           <div class="thumbnail">
-            <img src="<%= res[i].photo %>" style="width:320px; height:200px;">
+            <img src="../../<%= res[i].photo %>" style="width:320px; height:200px;">
               <div class="caption">
                 <h4><%= res[i].product %></h4>
                 <p> Price: <b><%= res[i].price %><br/></p>
-                <% sum+=res[i].price %>
-               <a href="/sc/<%= res[i].product %>" class="btn btn-warning btn-l" role="button">View Product</a>
+                <% sum= sum+res[i].price; %>
+               <a href="/cart/<%= res[i].product %>" class="btn btn-warning btn-l" role="button">View Product</a>
             </div>
           </div>
           </div>
@@ -84,7 +84,7 @@
 <h2 id="arndw" style="font-family: 'Luckiest Guy';">Around the Web</h2>
 <h3 id="loc">Location<h2>
 <h3 id="tri">Trivandrum,Kerala</h3>
-<img src="il_570xN.1214155158_r8b9.jpg" id="social">
+<img src="../il_570xN.1214155158_r8b9.jpg" id="social">
 </div>
 
 <div class="row" id="foot">

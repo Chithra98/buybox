@@ -38,7 +38,7 @@
            <ul class="nav navbar-nav navbar" style="font-family: Hammersmith One, sans-serif; margin-top: -8px;
     font-size: 15px; margin-left: 169px;">
          <li id="hm"><a href="/profile">Home</a> </li>
-         <li id="pro"><a href="/product1">Products</a></li>
+         <li id="pro"><a href="/products1">Products</a></li>
          <li id="cnt"><a href="/about1">About</a></li>
          <li><form style="margin-left: 38px; margin-top: 9px;" ><input class="mr-sm-2" type="text" placeholder="Search">
       <button class="btn btn-warning" type="submit">Search</button>
@@ -59,10 +59,10 @@
        <% for(var i=0;i<res.length;i++){%>
         <div class=" col-md-3" id="u1">
           <div class="thumbnail">
-            <img src="<%= res.photo %>" style="width:320px; height:200px;">
+            <img src="<%= res[i].photo %>" style="width:320px; height:200px;">
               <div class="caption">
-                <h4><%= res.product %></h4>
-                <p> Price: <b><%= res.price %><br/></p>
+                <h4><%= res[i].product %></h4>
+                <p> Price: <b><%= res[i].price %><br/></p>
                <a href="/sc/<%= res.product %>" class="btn btn-warning btn-l" role="button">View Product</a>
             </div>
           </div>

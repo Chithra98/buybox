@@ -1,55 +1,9 @@
-{"product":"car","price":12,"_id":"0G0vngptIAy68f2q"}
-{"product":"car","price":12,"_id":"23K7s99kY49wXGZZ"}
-{"product":"car","price":12,"_id":"2Q8Bhj5JIqihbUwF"}
-{"product":"car","price":12,"_id":"2W9nwnOAdO7g95UV"}
-{"product":"car","price":12,"_id":"3mASV0AIHQ3Xd2eP"}
-{"Username":"anju","product":"car","price":12,"_id":"4Yu0agZfJmEZ2WBD"}
-{"product":"car","price":12,"_id":"5BOuQkovG5Ooiem8"}
-{"product":"car","price":12,"_id":"5FroKJqOPnjPiEEy"}
-{"product":"car","price":12,"_id":"6jQVksqXwq3K9q8S"}
-{"product":"car","price":12,"_id":"7AG0t0yRs61CcbhD"}
-{"Username":"anju","product":"car","price":12,"_id":"7YPZUAD7cn34HmIc"}
-{"product":"car","price":12,"_id":"8TOXvpMwXq8AoBCr"}
-{"product":"car","price":12,"_id":"C6zkVLr7Ku37xGHW"}
-{"product":"car","price":12,"_id":"E40gy9a1KVlDuNrF"}
-{"product":"car","price":12,"_id":"HHLFJXOyHQNx3ba3"}
-{"product":"car","price":12,"_id":"KtdZPTszw3yWh9mr"}
-{"product":"car","price":12,"_id":"NH9wzqEoSupa66gj"}
-{"product":"car","price":12,"_id":"OppZmG1xIxZGYAoc"}
-{"Username":"anju","product":"car","price":12,"_id":"SqeVUkEHe7Y2b7l6"}
-{"product":"car","price":12,"_id":"TymW9XrjSTIbHMRo"}
-{"product":"car","price":12,"_id":"W90YBu9L0dEfTnzN"}
-{"product":"car","price":12,"_id":"WpU5vkc4PDYG906Z"}
-{"Username":"anju","product":"car","price":12,"_id":"ZSkmndI29XPuGLJY"}
-{"product":"car","price":12,"_id":"Zphj7ESx59uT8XfX"}
-{"product":"car","price":12,"_id":"aBn1quvLMmt8L2Gi"}
-{"product":"car","price":12,"_id":"adrKvZ7vcspi8cGz"}
-{"product":"car","price":12,"_id":"dtYliuDVtQgjq39U"}
-{"product":"car","price":12,"_id":"eOKyfTnHka5tqrAk"}
-{"product":"car","price":12,"_id":"f7YXA0117DTGrHa7"}
-{"product":"car","price":12,"_id":"fogFWpLKHDFZtigi"}
-{"product":"car","price":12,"_id":"gQUKBd2M5OjvIZ5S"}
-{"product":"car","price":12,"_id":"gl3Z7p4S1FWrLLsx"}
-{"product":"car","price":12,"_id":"h5Du5Y3SPJ1y5A8W"}
-{"product":"car","price":12,"_id":"hIUXhvKWKBH65lsV"}
-{"product":"car","price":12,"_id":"hloXjSgPCWA6Fx6p"}
-{"product":"car","price":12,"_id":"j4TugGOU7uZBfajP"}
-{"product":"car","price":12,"_id":"j8KJoQXQ1YhVtr0R"}
-{"product":"car","price":12,"_id":"jtQvwtpx2miQTVwl"}
-{"Username":"anju","product":"car","price":12,"_id":"lBzm7aXS2PieahDl"}
-{"product":"car","price":12,"_id":"my2ifOE9veP5gsqc"}
-{"Username":"anju","product":"car","price":12,"_id":"ntRjdRNtEcOd0bQ0"}
-{"Username":"anju","product":"car","price":12,"_id":"oyvewZA1JV0Wry3I"}
-{"product":"car","price":12,"_id":"p8v0InMo5rHlnEuy"}
-{"product":"car","price":12,"_id":"r81XFhfg6VB00k7j"}
-{"product":"car","price":12,"_id":"sGXvzDmXEoLxABEE"}
-{"product":"car","price":12,"_id":"tLq3A4nsUOBj4nHD"}
-{"product":"car","price":12,"_id":"tctSKEZxuBFTostW"}
-{"Username":"k","product":"car","price":12,"_id":"v10VBUPJX4jcHJlB"}
-{"product":"car","price":12,"_id":"w7eJakN95jMR2XdZ"}
-{"product":"car","price":12,"_id":"wKZUGZz908L6XWwc"}
-{"Username":"anju","product":"car","price":12,"_id":"we7CEW20Yvueh6hR"}
-{"Username":"anju","product":"car","price":12,"_id":"woDCeHi8Osl0w1I2"}
-{"product":"car","price":12,"_id":"xbCBgmQK3jj44Kow"}
-{"Username":"anju","product":"car","price":12,"_id":"yMNwNW21EbmM4NI7"}
-{"product":"car","price":12,"_id":"yP28CwT1klGtIFYe"}
+{"Username":"k","product":"SENNHEISER HD 800","price":1599,"photo":"head.jpg","_id":"4ftqzXkU9GJx0tbn"}
+{"Username":"k","product":"Apple Macbook Pro","price":2000,"photo":"macbook.jpg","_id":"5CdCPDCaHAxSvKZZ"}
+{"Username":"k","product":"Apple Macbook Pro","price":2000,"photo":"macbook.jpg","_id":"JmGlyISqxNskRZZ0"}
+{"Username":"k","product":"Apple Macbook Pro","price":2000,"photo":"macbook.jpg","_id":"Yt02LZm2rH5pxraY"}
+{"Username":"k","product":"Apple Macbook Pro","price":2000,"photo":"macbook.jpg","_id":"aB7WpC4TXQz1pwad"}
+{"Username":"k","product":"Apple Macbook Pro","price":2000,"photo":"macbook.jpg","_id":"bBuI9uO2N2qjJhIF"}
+{"Username":"k","product":"iMac Pro","price":5000,"photo":"imac.jpg","_id":"eqyMeIcIrmZWhfLH"}
+{"Username":"k","product":"Google Glass","price":1500,"photo":"gl.jpg","_id":"nlRHIxUcNRNT1r36"}
+{"Username":"k","product":"Samsung Galaxy S8","price":750,"photo":"s8.jpg","_id":"qcFY1QFsXqhle16B"}

@@ -51,6 +51,12 @@ app.get('/signupsubmit', function(req,res){
 	});
 	res.render('login')
 })
+
+app.get('/profile',function(req,res){
+	res.render('profile')
+})
+
+
 /*
 app.get('/loginsubmit',function(req,res){
 	var a={
@@ -149,7 +155,8 @@ products.find(obj, function(err,docs)
 			{var ins={
 		Username:username,
 		product:req.params.product,
-		price:docs[0].price
+		price:docs[0].price,
+		photo:docs[0].photo
 	}
 				newdb.insert(ins,function(err,docs){
 					if (docs.length>0) {
@@ -168,23 +175,19 @@ products.find(obj, function(err,docs)
 			console.log(docs)
 
 		})*/
-		newdb.find({},function(err,docs){
-			res.render('shoppingcart', {res:docs})
-})
+	
 
 		})
 		})
 
-app.get('/shoppingcart',function(req,res){
-	res.render('shoppingcart')
-})
+
 
 app.get('/sc/:product', function(req,res){
 	var newobj={
 		product:req.params.product
 	}
 	
-	newdb.find(newobj,function(err,docs){
+	products.find(newobj,function(err,docs){
 		
 	res.render('product',{res:docs})
 
@@ -194,12 +197,22 @@ app.get('/sc/:product', function(req,res){
 
 })
 	
-	app.get('/cart/:product', function(req,res){
+
+app.get('/search/:product',function(req,res){
+     var a=req.params.pname;
+     console.log(a)
+	var obj={product:a}
+	products.find(obj,function(err,docs){
+		res.render('productlist',{res:docs})
+			console.log(docs)
+	})
+})
+	app.get('/cart/:product1', function(req,res){
 	var newobj={
 		product:req.params.product
 	}
 	
-	newdb.find(newobj,function(err,docs){
+	products.find(newobj,function(err,docs){
 		
 	res.render('product1',{res:docs})
 
@@ -217,6 +230,12 @@ app.get('/payment',function(req,res){
 		console.log(docs)
 	})
 	
+})
+
+app.get('/shop',function(req,res){
+     newdb.find({},function(err,docs){
+     	res.render('shoppingcart',{res:docs})
+     })
 })
 	
 

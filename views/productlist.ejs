@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="productlist.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../productlist.css">
 
   <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Bangers |Gochi+Hand|Hammersmith+One|Luckiest+Guy|Ubuntu+Mono" rel="stylesheet">
@@ -30,9 +30,9 @@
   <span class="icon-bar"> </span>
   <span class="icon-bar"> </span>/
   </button>
-   <img src="x.jpg" id="icon">
+   <img src="../x.jpg" id="icon">
    <a class="navbar-brand" href="" style="font-family: 'Acme', sans-serif; font-family: Acme, sans-serif;     font-size: 25px;
-    margin-top: 11px;"> BuyBox
+    margin-top: 11px;"> BuyBox</a>
    
        <div class="navbar-collapse collapse">
            <ul class="nav navbar-nav navbar" style="font-family: Hammersmith One, sans-serif; margin-top: -8px;
@@ -53,16 +53,17 @@
   </div>
 </nav>
 
-<div><h1 style="    margin-left: 637px; margin-top: 44px; color: #7e6440;">Products</h1></div>
+
 
 </div>
 <h1 style="font-family: 'Acme', sans-serif; ">Product List</h1>
+
 
 <div class="row>" id="r1">
        <% for(var i=0;i<res.length;i++){%>
         <div class=" col-md-3" id="u1">
           <div class="thumbnail">
-            <img src="<%= res[i].photo %>" style="width:320px; height:200px;">
+            <img src="../<%= res[i].photo %>" style="width:320px; height:200px;">
               <div class="caption">
                 <h4><%= res[i].product %></h4>
                 <p> Price: <b><%= res[i].price %><br/></p>
@@ -83,7 +84,7 @@
 <h2 id="arndw" style="font-family: 'Luckiest Guy';">Around the Web</h2>
 <h3 id="loc">Location<h2>
 <h3 id="tri">Trivandrum,Kerala</h3>
-<img src="il_570xN.1214155158_r8b9.jpg" id="social">
+<img src="../il_570xN.1214155158_r8b9.jpg" id="social">
 </div>
 
 <div class="row" id="foot">

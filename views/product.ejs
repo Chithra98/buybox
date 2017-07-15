@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="product.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../product.css">
 
   <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Bangers |Gochi+Hand|Hammersmith+One|Luckiest+Guy|Ubuntu+Mono" rel="stylesheet">
@@ -17,7 +17,7 @@
 <div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+    </div>
 
 <nav class="navbar  navbar-inverse  navbar-fixed-top" style="background-color: #222222;">
   <div class="container">
@@ -30,7 +30,7 @@
   <span class="icon-bar"> </span>
   <span class="icon-bar"> </span>/
   </button>
-   <img src="x.jpg" id="icon">
+   <img src="../x.jpg" id="icon">
    <a class="navbar-brand" href="" style="font-family: 'Acme', sans-serif; font-family: Acme, sans-serif;     font-size: 25px;
     margin-top: 11px;"> BuyBox
    
@@ -52,13 +52,11 @@
        </div>
   </div>
 </nav>
-</div>
-
 
 <div class="row" id="r1">
 <div class=" col-md-3" id="u1">
           <div class="thumbnail">
-            <img src="<%= res[0].photo %>" style="width:320px; height:200px;">
+            <img src="../../<%= res[0].photo %>" style="width:320px; height:200px;">
               <div class="caption">
                 <h4><%= res[0].product %></h4>
                 <p> Price: <b><%= res[0].price %><br/></p>
@@ -67,6 +65,7 @@
             </div>
           </div>
           </div>
+         
   
 </div>
                                                  
@@ -75,7 +74,7 @@
 <h2 id="arndw" style="font-family: 'Luckiest Guy';">Around the Web</h2>
 <h3 id="loc">Location<h2>
 <h3 id="tri">Trivandrum,Kerala</h3>
-<img src="il_570xN.1214155158_r8b9.jpg" id="social">
+<img src="../il_570xN.1214155158_r8b9.jpg" id="social">
 </div>
 
 <div class="row" id="foot">

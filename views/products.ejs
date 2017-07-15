@@ -35,16 +35,16 @@
     margin-top: 11px;"> BuyBox
    
        <div class="navbar-collapse collapse">
-           <ul class="nav navbar-nav navbar" style="font-family: Hammersmith One, sans-serif; margin-top: -8px;
+           <ul class="nav navbar-nav navbar" style="font-family: Hammersmith One, sans-serif; margin-top: -72px;
     font-size: 15px; margin-left: 169px;">
-         <li id="hm"><a href="/home">Home</a> </li>
+         <li id="hm"><a href="/">Home</a> </li>
          <li id="pro"><a href="/products">Products</a></li>
          <li id="cnt"><a href="/about">About</a></li>
          <li><form style="margin-left: 38px; margin-top: 9px;" ><input class="mr-sm-2" type="text" placeholder="Search">
       <button class="btn btn-warning" type="submit">Search</button>
     </form></li>
-         <li style="margin-left: 184px; margin-top: 10px;"><a href="/login"><button class="btn btn-success" type="submit" >Login</button></a></li>
-         <li style=" margin-top: 10px; margin-left: 16px;"><a href="/signup"><button class="btn btn-primary" type="submit">Sign Up</button></a></li>
+         <li style="margin-left: 184px; margin-top: -4px;"><a href="/login"><button class="btn btn-success" type="submit" >Login</button></a></li>
+         <li style=" margin-top: -4px; margin-left: 16px;"><a href="/signup"><button class="btn btn-primary" type="submit">Sign Up</button></a></li>
       
            </ul>
          </li>
@@ -53,15 +53,15 @@
   </div>
 </nav>
 
-<div class="row>" id="r1">
+<div class="row>" id="r1" style="    background: rgb(202, 203, 204);">
        <% for(var i=0;i<res.length;i++){%>
-        <div class=" col-md-3" id="u1">
-          <div class="thumbnail">
+        <div class=" col-md-3" id="u1" style="     background: rgb(202, 203, 204);">
+          <div class="thumbnail"> 
             <img src="<%= res[i].photo %>" style="width:320px; height:200px;">
               <div class="caption">
                 <h4><%= res[i].product %></h4>
                 <p> Price: <b><%= res[i].price %><br/></p>
-               <a href="/list/<%= res[i].product %>" class="btn btn-danger btn-l" role="button">Buy</a>
+               <a href="/login" class="btn btn-danger btn-l" role="button">Buy</a>
                <a href="/sc/<%= res[i].product %>" class="btn btn-warning btn-l" role="button">View Product</a>
             </div>
           </div>
